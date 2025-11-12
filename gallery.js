@@ -5,18 +5,20 @@ const mWaitTime = 5000 // Timer interval in milliseconds
 
 $(document).ready(() => {
   $('.details').hide() // Hide details initially
+  setInterval(showNextPhoto, mWaitTime)
 
-  // Call a function here to start the timer for the slideshow
+  $('#moreIndicator').on('click', function () {
+    $(this).toggleClass('rot90 rot270')
+    $(details).slideToggle()
+  })
 
-  // Select the moreIndicator button and add a click event to:
-  // - toggle the rotation classes (rot90 and rot270)
-  // - slideToggle the visibility of the .details section
+  $('#nextPhoto').on('click', () => {
+    showNextPhoto()
+  })
 
-  // Select the "Next Photo" button and add a click event to call showNextPhoto
-
-  // Select the "Previous Photo" button and add a click event to call showPrevPhoto
-
-  // Call fetchJSON() to load the initial set of images
+  $('#prevPhoto').on('click', () => {
+    showPrevPhoto()
+  })
   fetchJSON()
 })
 
@@ -38,9 +40,15 @@ function fetchJSON () {
 
 // Function to swap and display the next photo in the slideshow
 function swapPhoto () {
-  // Access mImages[mCurrentIndex] to update the image source and details
-  // Update the #photo element's src attribute with the current image's path
-  // Update the .location, .description, and .date elements with the current image's details
+  if (mImages === 0) return
+
+  const currentImage = mImages[mCurrentIndex]
+
+  $('#photo').attr('src', currentImage.imgPath)
+
+  $('.location').text(`Location ${currentImage.imgLocation}`)
+  $('.description').text(`Location ${currentImage.description}`)
+  $('.date').text(`Location ${currentImage.date}`)
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
