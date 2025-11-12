@@ -1,82 +1,64 @@
 {
     "images": [
         {
-            "imgPath": "img/places/australia.jpg",
-            "imgLocation": "Australia",
-            "description": "Loch Ard Gorge",
-            "date": "01/01/2016"
+            "imgPath": "img/baseball.jpg",
+            "imgLocation": "New Jersey",
+            "description": "Sunset at a baseball game",
+            "date": "09/14/2025"
         },
         {
-            "imgPath": "img/places/austria.jpg",
-            "imgLocation": "Austria",
-            "description": "Austrian chapel",
-            "date": "01/02/2016"
+            "imgPath": "img/beach.jpg",
+            "imgLocation": "New Jersey",
+            "description": "Two friends watching the sunrise",
+            "date": "08/10/2025"
         },
         {
-            "imgPath": "img/places/france.jpg",
-            "imgLocation": "Paris",
-            "description": "Eiffel Tower",
-            "date": "01/03/2016"
+            "imgPath": "img/flowers.jpg",
+            "imgLocation": "Marlboro, New Jersey",
+            "description": "Flower bouquet",
+            "date": "10/04/2025"
         },
         {
-            "imgPath": "img/places/greece.jpg",
-            "imgLocation": "Greece",
-            "description": "Greek coastline",
-            "date": "01/04/2016"
+            "imgPath": "img/freinds.jpg",
+            "imgLocation": "Marlboro, New Jersey",
+            "description": "Friends on the first day of school",
+            "date": "09/04/2025"
         },
         {
-            "imgPath": "img/places/hungary.jpg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
+            "imgPath": "img/NYC.jpg",
+            "imgLocation": "New York City",
+            "description": "Burbeery Store in New York City",
             "date": "01/05/2016"
         },
         {
-            "imgPath": "img/places/india.jpg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgPath": "img/plane.jpg",
+            "imgLocation": "Florida",
+            "description": "Airplane view",
+            "date": "10/31/2025"
         },
         {
-            "imgPath": "img/places/italy.jpg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgPath": "img/prom.jpg",
+            "imgLocation": "Marlboro, New Jersey",
+            "description": "Prom ready",
+            "date": "05/02/2025"
         },
         {
-            "imgPath": "img/places/japan.jpg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgPath": "img/hallo.jpg",
+            "imgLocation": "University of Florida",
+            "description": "Freinds taking pictures for halloween",
+            "date": "10/31/2025"
         },
         {
-            "imgPath": "img/places/korea.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgPath": "img/party.jpg",
+            "imgLocation": "New Jersey",
+            "description": "Three friends at a party",
+            "date": "06/15/2025"
         },
         {
-            "imgPath": "img/places/norway.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
-        },
-        {
-            "imgPath": "img/places/switzerland.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
-        },
-        {
-            "imgPath": "img/places/thailand.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
-        },
-        {
-            "imgPath": "img/places/turkey.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgPath": "img/latenight.jpg",
+            "imgLocation": "New Jersey",
+            "description": "Late night drives",
+            "date": "019/26/2025"
         }
   ]
 }
