@@ -1,31 +1,31 @@
 {
     "images": [
         {
-            "imgPath": "img/baseball.jpg",
+            "imgPath": "img/baseball.jpeg",
             "imgLocation": "New Jersey",
             "description": "Sunset at a baseball game",
             "date": "09/14/2025"
         },
         {
-            "imgPath": "img/beach.jpg",
+            "imgPath": "img/beach.jpeg",
             "imgLocation": "New Jersey",
             "description": "Two friends watching the sunrise",
             "date": "08/10/2025"
         },
         {
-            "imgPath": "img/flowers.jpg",
+            "imgPath": "img/flowers.jpeg",
             "imgLocation": "Marlboro, New Jersey",
             "description": "Flower bouquet",
             "date": "10/04/2025"
         },
         {
-            "imgPath": "img/freinds.jpg",
+            "imgPath": "img/friends.jpeg",
             "imgLocation": "Marlboro, New Jersey",
             "description": "Friends on the first day of school",
             "date": "09/04/2025"
         },
         {
-            "imgPath": "img/NYC.jpg",
+            "imgPath": "img/NYC.jpeg",
             "imgLocation": "New York City",
             "description": "Burbeery Store in New York City",
             "date": "01/05/2016"
