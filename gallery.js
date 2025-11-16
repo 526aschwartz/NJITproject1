@@ -28,27 +28,22 @@ function fetchJSON() {
     url: mUrl,
     dataType: 'json',
     success: function (data) {
-      mImages = data.images 
-      console.log('JSON data loaded:', mImages);
-      mCurrentIndex = 0;
-      swapPhoto();
+      mImages = data.images;
+      swapPhoto()
     },
     error: function (xhr, status, error) {
-      console.log('Error loading JSON:', error);
+      console.error("Failed to load")
     }
-  });
+  })
 }
 
 // Function to swap and display the next photo in the slideshow
-function swapPhoto () {
- if (mImages.length === 0) return;
-
-  const currentImage = mImages[mCurrentIndex];
-
+function swapPhoto() {
+  let currentImage = mImages[mCurrentIndex];
   $('#photo').attr('src', currentImage.imgPath);
-  $('.location').text(`Location: ${currentImage.imgLocation}`);
-  $('.description').text(`Description: ${currentImage.description}`);
-  $('.date').text(`Date: ${currentImage.date}`);
+  $('.location').text(`Location: ${currentImage.imgLocation}`)
+  $('.description').text(`Description: ${currentImage.imgDescription}`)
+  $('.date').text(`Date: ${currentImage.imgDate}`)
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
