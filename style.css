@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Century Gothic', sans-serif;
-    background-image: url('../img/geometry.jpg');
+    background-color: aliceblue;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -59,7 +59,7 @@ body {
 
 /* Metadata container styling */
 .details {
-    border: 1px dashed #000;
+    border: 3px solid rgb(200, 215, 228);
     padding: 15px;
     background-color: #f8f9fa; /* Light background to distinguish from main area */
     border-radius: 4px;

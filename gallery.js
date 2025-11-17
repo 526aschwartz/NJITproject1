@@ -7,8 +7,8 @@ $(document).ready(() => {
   $('.details').hide() // Hide details initially
   setInterval(showNextPhoto, mWaitTime)
 
-  $('#moreIndicator').on('click', function () {
-    $(this).toggleClass('rot90 rot270')
+  $('.moreIndicator').on('click', function () {
+    $(".moreIndicator").toggleClass('rot90 rot270')
      $('.details').slideToggle()
   })
 
@@ -42,8 +42,8 @@ function swapPhoto() {
   let currentImage = mImages[mCurrentIndex];
   $('#photo').attr('src', currentImage.imgPath);
   $('.location').text(`Location: ${currentImage.imgLocation}`)
-  $('.description').text(`Description: ${currentImage.imgDescription}`)
-  $('.date').text(`Date: ${currentImage.imgDate}`)
+  $('.description').text(`Description: ${currentImage.description}`)
+  $('.date').text(`Date: ${currentImage.date}`)
 }
 
 // Advances to the next photo, loops to the first photo if the end of array is reached
